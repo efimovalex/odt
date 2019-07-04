@@ -48,7 +48,7 @@ func (t *Time) UnmarshalJSON(b []byte) (err error) {
 	return
 }
 
-func (t *Time) MarshalJSON() ([]byte, error) {
+func (t Time) MarshalJSON() ([]byte, error) {
 	if t.Time == nil {
 		return []byte("null"), nil
 	}

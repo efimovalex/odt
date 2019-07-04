@@ -42,7 +42,7 @@ func (d *Date) UnmarshalJSON(b []byte) (err error) {
 	return
 }
 
-func (d *Date) MarshalJSON() ([]byte, error) {
+func (d Date) MarshalJSON() ([]byte, error) {
 	if d.Time == nil {
 		return []byte("null"), nil
 	}
