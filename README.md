@@ -18,5 +18,5 @@ Look in the [example folder](example/main.go)
 
 ```
     odt.SetDateFormat("01/02/2006")
-
+    odt.SetTimeFormat("22-22-22")
 ```
