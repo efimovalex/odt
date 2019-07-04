@@ -83,6 +83,8 @@ func (t Time) Value() (driver.Value, error) {
 
 func convertTimeValue(src interface{}) (driver.Value, error) {
 	switch s := src.(type) {
+	case time.Time:
+		return s, nil
 	case string:
 		tm, err := time.Parse(DefaultTimeLayout, s)
 		if err != nil {

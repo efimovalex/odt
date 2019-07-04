@@ -77,6 +77,8 @@ func (d *Date) Scan(value interface{}) error {
 
 func convertDateValue(src interface{}) (driver.Value, error) {
 	switch s := src.(type) {
+	case time.Time:
+		return s, nil
 	case string:
 		tm, err := time.Parse(DefaultLayout, s)
 		if err != nil {
