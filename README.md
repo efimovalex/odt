@@ -8,8 +8,11 @@ Golang Other Date Types
 Golang Library that translates between `DATE` and `TIME` SQL types and JSON encoding.
 
 Features: 
+
     - automatically converts json to mysql scannable struct for DATE and TIME types
+    
     - can change the format read from the json
+    
 ## Example:
 
 Look in the [example folder](example/main.go)
