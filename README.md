@@ -1,4 +1,4 @@
-# ODT
+# Golang Other Date Types
 
 [![Build Status](https://travis-ci.org/efimovalex/odt.svg?branch=master)](https://travis-ci.org/efimovalex/odt)
 [![Go Report Card](https://goreportcard.com/badge/github.com/efimovalex/odt)](https://goreportcard.com/report/github.com/efimovalex/odt) [![codecov](https://codecov.io/gh/efimovalex/odt/branch/master/graph/badge.svg)](https://codecov.io/gh/efimovalex/odt) [![GoDoc](https://godoc.org/github.com/efimovalex/odt?status.svg)](https://godoc.org/github.com/efimovalex/odt)
